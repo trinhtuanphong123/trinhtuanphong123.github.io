@@ -13,7 +13,7 @@ name                     : "Trinh Tuan Phong"
 description              : "Hanoi University of Science and Technology HUST"
 description              : "Applied Mathematics and Informatics | HUST"
 url                      : "https://trinhtuanphong123.github.io"
-baseurl                  : "/trinhtuanphong.github.io"
+baseurl                  : 
 repository               : "trinhtuanphong123/trinhtuanphong.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
