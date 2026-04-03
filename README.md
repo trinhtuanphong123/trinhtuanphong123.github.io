@@ -1,3 +1,61 @@
+# Trinh Tuan Phong's Academic Portfolio
+
+This is the personal academic website of **Trinh Tuan Phong**, a senior student in **Applied Mathematics and Informatics** at **Hanoi University of Science and Technology (HUST)**. 
+
+This website is built using the [Academicpages template](https://academicpages.github.io/), which was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/). The theme is © 2016 Michael Rose and released under the MIT License.
+
+## Quick Access
+* **Live Website:** [https://trinhtuanphong123.github.io](https://trinhtuanphong123.github.io)
+* **Status:** Currently under development / Personal Portfolio.
+
+---
+
+# Website Structure & Instructions
+
+### 1. Repository Setup
+The repository is named `trinhtuanphong123.github.io`. This specific naming convention allows GitHub Pages to serve the website directly at the root URL.
+
+### 2. Configuration
+Site-wide settings are managed in `_config.yml`. This includes:
+* **URL:** `https://trinhtuanphong123.github.io`
+* **Author Info:** Name, Bio, and Social links (GitHub, LinkedIn).
+
+### 3. Content Management
+* **About Me:** Located in `_pages/about.md`. This is the homepage.
+* **Portfolio/Projects:** Add new projects as `.md` files in the `_portfolio/` folder.
+* **CV:** Managed in `_pages/cv.md`.
+* **Files:** Upload PDFs (like CV or project reports) to the `files/` directory. They will be accessible at `https://trinhtuanphong123.github.io/files/your-file.pdf`.
+
+### 4. Media
+* **Images:** All profile pictures and project screenshots are stored in the `images/` folder. The primary profile picture is `images/bio-photo.jpg`.
+
+---
+
+## Running Locally (For Development)
+
+If you want to preview changes on your local machine before pushing to GitHub:
+
+1. Clone the repository: `git clone https://github.com/trinhtuanphong123/trinhtuanphong123.github.io.git`
+2. Ensure you have **Ruby**, **Bundler**, and **NodeJS** installed.
+3. Run `bundle install` to install dependencies.
+4. Execute `bundle exec jekyll liveserve` to serve the site at `http://localhost:4000`.
+
+---
+
+# Acknowledgments
+Special thanks to the [Academicpages](https://github.com/academicpages/academicpages.github.io) community and Stuart Geiger for the original template structure.
+
+---
+**Contact:**
+Trinh Tuan Phong - [GitHub Profile](https://github.com/trinhtuanphong123)
+
+
+
+# Information about the root project
+
+
+
+
 A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
 I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
